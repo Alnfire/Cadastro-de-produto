@@ -1,0 +1,14 @@
+package com.loja.cadastro_api.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+@Controller
+public class MeuController {
+
+    @GetMapping("/home")
+    public String home(){
+        return "home";
+    }
+    
+}
